@@ -49,7 +49,7 @@ const lorumIpsum = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pro
 let words = lorumIpsum.split(' ').length;
 console.log(words)
 
-let et = lorumIpsum.split('et').length;
+let et = lorumIpsum.split(' et ').length;
 console.log(et)
 
 // Bonus 2 
